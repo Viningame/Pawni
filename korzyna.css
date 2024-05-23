@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "El Messiri", sans-serif;
+    color: #515C8B;
+    font-weight: 400;
+}
+
+
+
+
+.work-place1{
+    width: auto;
+    height: 1350px;
+    background-image: url('img/korzya.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.shapka {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 97px;
+    align-items: center;
+    max-width: 1900px;
+}
+
+.logo-img{
+    max-width: 284px;
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+.menu {
+    margin-right: 100px;
+    margin-left: auto;
+}
+
+.menu-link{
+    color: #515C8B;
+    text-decoration: none;
+    font-size: 35px;
+    margin-right: 56px;
+}
+
+.menu-link:last-child{
+    margin-right: 0;
+}
+
+.menu-link:hover {
+    color: #E96553;
+}
+
+.title {
+    font-size: 48px;
+    color: #515C8B;
+    padding-bottom: 30px;
+    padding-top: 68px;
+    margin-left: 100px;
+    margin-right: auto;
+    padding-top: 97px;
+    max-height: 651px;
+}
+
+
+
+
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 70px;
+    justify-content: space-between;
+    padding-bottom: 10pt;
+    margin-top: 30px;
+
+    
+
+
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    min-width: 1239px;
+    justify-content: space-between;
+    
+    text-decoration: none;
+    
+    color: #515C8B;
+}
+.product-title {
+    font-size: 12px;
+    line-height: 24px;
+    margin-left: 20pt;
+}
+
+.col-vo {
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 330px;
+    margin-right: 180px;
+}
+
+.k-vo {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.col-vo:last-child{
+    margin-right: 0;
+}
+
+.cost {
+    font-size: 24px;
+    padding-right: 20px;
+}
+
+
+.buttom {
+    width: 37px;
+    height: 37px;
+   
+}
+
+.line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #E96553;
+    width: 1239px;
+    height: 1pt;
+    
+
+
+}
+
+.opisanye {
+    text-align: left;
+    font-size: 20px;
+    color: #515C8B;
+    line-height: 22px;
+}
+
+
+.product-title{
+    font-size: 24px;
+}
+
+.art {
+    font-size: 12pt;
+}
+
+.biying {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.biy {
+
+    font-size: 24px;
+    background-color: #515C8B;
+    color: #ffffff;
+    width: 128px;
+    height: 60px;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.fin {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    min-width: 1239px;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 200pt;
+
+}
+
+.knopka {
+    font-size: 24px;
+    align-items: center;
+    min-width: 287px;
+    justify-content: space-between;
+    background-color: #515C8B;
+    color: #ffffff;
+    width: 128px;
+    height: 60px;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.knopka:hover {
+    background-color: #E96553;
+}
+
+
+
+
+
+
+
+
+.podval{
+    min-height: 300px;
+    background-color: #ffffff;
+    
+    display: flex;
+}
+
+
+
+.logotype {
+    padding-top: 48px;
+    
+    margin-right: auto;
+    padding-top: 30px;
+    max-height: 651px;
+    align-items: center;
+    color: #515C8B;
+    text-decoration: none;
+}
+
+
+.navigation {
+    color: #515C8B;
+    text-decoration: none;
+    font-size: 24px;
+    align-items: center;
+    margin-left: 330px;
+    margin-right: 100px;
+    padding-top: 131px;
+    
+}
+
+.social-web {
+    color: #515C8B;
+    display: flex;
+    align-items: end;
+    margin-right: 0px;
+    margin-left: 300px;
+    
+    
+
+}
+.social {
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.social-container{
+    display: flex;
+    padding: 20px;
+    padding-bottom: 70px;
+}
+
+/*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}/
+
+

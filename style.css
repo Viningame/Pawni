@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "El Messiri", sans-serif;
+    color: #515C8B;
+    font-weight: 400;
+}
+
+
+
+
+.work-place1{
+    min-height: 1024px;
+    min-width: 1669px;
+    background-image: url('./img/workplace1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 220px;
+}
+
+
+.shapka {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 97px;
+    align-items: center;
+    max-width: 1900px;
+}
+
+.logo-img{
+    max-width: 284px;
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+.menu {
+    margin-right: 100px;
+    margin-left: auto;
+}
+
+.menu-link{
+    color: #515C8B;
+    text-decoration: none;
+    font-size: 35px;
+    margin-right: 56px;
+}
+
+.menu-link:hover {
+    color: #E96553;
+}
+
+.menu-link:last-child{
+    margin-right: 0;
+}
+
+
+.main-title {
+    text-align: right;
+    font-size: 195px;
+    margin-top: 200px;
+    line-height: 194px;
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+.work-place2 {
+    min-height: 1080px;
+    min-width: 1669px;
+    background-image: url('img/work-place2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.text-group {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 200px;
+    padding-top: 0px;
+    max-height: 651px;
+    
+    
+}
+
+.title {
+    font-size: 48px;
+    color: white;
+    padding-bottom: 0px;
+    margin-top: 68px;
+}
+
+.osnovnoi-text {
+    font-size: 32px;
+    color: white;
+    line-height: 32px;
+}
+
+
+
+
+.photo-me{
+    max-width: 598px;
+    max-height: 870px;
+    margin-top: 126px;
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.work-place3 {
+    min-height: 1080px;
+    min-width: 1669px;
+    background-image: url('img/workplace3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.products{
+    display: flex;
+    margin-left: 260px;
+    margin-right: 260px;
+    justify-content: space-between;
+}
+
+.product{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 33px;
+
+}
+
+.opisanye {
+    text-align: center;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+
+
+.product-title{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.title {
+    font-size: 48px;
+    color: white;
+    padding-bottom: 100px;
+    padding-top: 68px;
+    margin-left: 100px;
+    margin-right: auto;
+    padding-top: 97px;
+    max-height: 651px;
+}
+
+
+
+
+
+
+.podval{
+    min-height: 300px;
+    background-color: #ffffff;
+    
+    display: flex;
+}
+
+
+
+.logotype {
+    padding-top: 48px;
+    margin-left: 100px;
+    margin-right: auto;
+    padding-top: 30px;
+    max-height: 651px;
+    align-items: center;
+    color: #515C8B;
+    text-decoration: none;
+}
+
+
+.navigation {
+    max-width: 700px;
+    color: #515C8B;
+    text-decoration: none;
+    font-size: 24px;
+    align-items: center;
+    margin-left: 330px;
+    
+    padding-top: 131px;
+    
+}
+
+.social-web {
+    color: #515C8B;
+    display: flex;
+    align-items: end;
+    margin-left: 500px;
+    margin-right: 100px;
+
+}
+
+.social {
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.social-container{
+    display: flex;
+    padding: 20px;
+    padding-bottom: 70px;
+}
+
+
+
+
+@media (max-width: 1440px) {
+   
+
+    .work-place1{
+        min-height: 1024px;
+        min-width: 1440px;
+        background-image: url('./img/workplace1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .shapka{
+        justify-content: center;
+    }
+    .logo{
+        margin-right: 450px;
+    }
+    .logo-img {
+        margin-left: 0;
+    }
+    .menu {
+        margin-left: 20px;
+    }
+
+
+
+
+    .work-place2 {
+        min-height: 1024px;
+        min-width: 1440px;
+        background-image: url('img/work-place2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+    }
+    
+    .text-group {
+        display: flex;
+        margin-left: 100px;
+        margin-right: 200px;
+        padding-top: 0px;
+        max-height: 651px;
+        
+        
+    }
+    
+    .title {
+        font-size: 48px;
+        color: white;
+        padding-bottom: 0px;
+        margin-top: 68px;
+    }
+    
+    .osnovnoi-text {
+        font-size: 30px;
+        color: white;
+        line-height: 30px;
+        margin-top: 68px;
+    }
+    
+    
+    
+    
+    .photo-me{
+        width: 420px;
+        max-height: 630px;
+        margin-top: 200px;
+        margin-right: 100px;
+    }
+    
+
+
+
+
+
+
+
+
+    .work-place3 {
+        min-height: 1024px;
+        min-width: 1440px;
+        background-image: url('img/workplace3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    
+    .products{
+        display: flex;
+        margin-left: 260px;
+        margin-right: 260px;
+        justify-content: space-between;
+        
+    
+    
+    }
+    
+    .product{
+        text-decoration: none;
+        color: #ffffff;
+        margin-right: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    .opisanye {
+        text-align: center;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    
+    .product-title{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .title {
+        font-size: 48px;
+        color: white;
+        padding-bottom: 100px;
+        padding-top: 68px;
+        margin-left: 100px;
+        margin-right: auto;
+        padding-top: 97px;
+        max-height: 651px;
+    }
+}
+
+
+@media (max-width: 320px) {
+
+    .work-place1{
+        min-height: 570px;
+        min-width: 320px;
+        background-image: url('./img/workplace1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .shapka{
+        justify-content: left;
+    }
+    .logo{
+        margin-right: 10px;
+        padding-bottom: 50px;
+        
+    }
+    .logo-img {
+        margin-left: 0;
+        max-width: 200px;
+        min-height: auto;
+        padding-bottom: 50px;
+    }
+    .menu {
+        margin-left: 0px;
+    }
+
+
+
+
+    .work-place2 {
+        min-height: 570px;
+        min-width: 320px;
+        background-image: url('img/work-place2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+    }
+    
+    .text-group {
+        display: flex;
+        margin-left: 10px;
+        margin-right: 200px;
+        padding-top: 0px;
+        max-height: 651px;
+        
+        
+    }
+    
+    .title {
+        font-size: 35px;
+        color: white;
+        padding-bottom: 0px;
+        margin-top: 68px;
+    }
+    
+    .osnovnoi-text {
+        font-size: 12px;
+        color: white;
+        line-height: 12px;
+        margin-top: 10px;
+    }
+    
+    
+    .photo-me{
+        width: 200px;
+        max-height: 320px;
+        margin-top: 200px;
+        margin-right: 5px;
+    }
+    
+
+
+
+
+
+
+
+
+    .work-place3 {
+        min-height: 1024px;
+        min-width: 1440px;
+        background-image: url('img/workplace3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    
+    .products{
+        display: flex;
+        margin-left: 260px;
+        margin-right: 260px;
+        justify-content: space-between;
+        
+    
+    
+    }
+    
+    .product{
+        text-decoration: none;
+        color: #ffffff;
+        margin-right: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    .opisanye {
+        text-align: center;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    
+    .product-title{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .title {
+        color: white;
+        padding-bottom: 100px;
+        padding-top: 68px;
+        margin-left: 10px;
+        margin-right: auto;
+        padding-top: 97px;
+        max-height: 651px;
+    }
+}
+
+
+
+
+/* font-family: "Literata", serif; */
